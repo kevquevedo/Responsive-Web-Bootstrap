@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap');
+
+*{box-sizing: border-box;}
+
+body{
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 40pt;
+    font-weight: 700;
+    color: #3957f1;
+}
+
+img{
+   width: 100%;
+}
+
+p{
+    font-size: 12pt;
+    font-weight: 400;
+    color: #15163d;
+}
+
+div{
+    background-image: url(../img/ProgramasInternacionales.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60vh;
+    height: 30vh;
+    border-radius: 10px;
+}
+
+div:nth-child(2){
+    background-image: url(../img/ParcticasProfesionales.png);
+}
+
+div:nth-child(3){
+    background-image: url(../img/Becas.png);
+}
+
+div:nth-child(4){
+    background-image: url(../img/CampusVirtual.png);
+}
+
+h3,p{
+    color: white;
+}
+
+
+@media (max-width: 768px) {
+
+    div{
+        width: 15vh;
+        height: 60vh;
+        margin-right: 10px;
+    }
+}

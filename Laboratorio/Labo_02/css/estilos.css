@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+    font-family: miFuente;
+    src: url(../font/coolvetica\ rg.otf);
+}
+
+*{box-sizing: border-box;}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-family: miFuente;
+    font-size: 50pt;
+    color: #0a2ff1;
+}
+
+div{
+    background-color: lightblue;
+    text-align: center;
+    align-items: center;
+}
+
+
